@@ -131,7 +131,9 @@ nav ul li a {
     align-content: left;
     align-items: center;
     text-align: left;
-    color: #fff;
+    color: #fff; 
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .hero-overlay {
@@ -184,11 +186,21 @@ nav ul li a {
 /* Sections */
 section {
     padding: 60px 4%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scroll-padding: 10px;
+    position: relative;
 }
 
 section h2 {
+    position: absolute;
+    top: 0;
+    left: 20;
     font-size: 24px;
     margin-bottom: 20px;
+    z-index: 1;
 }
 
 /* Footer */
