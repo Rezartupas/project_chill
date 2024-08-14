@@ -42,7 +42,8 @@ h2 {
 }
 
 form input {
-    width: 92.5%;
+    width: 100%;
+    box-sizing: border-box;
     padding: 15px;
     margin: 10px 0;
     border: none;
