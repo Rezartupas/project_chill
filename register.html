@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="login-page">
-    <div class="overlay">
-        <img src="images/logo.png" alt="Chill Logo" class="logo">
+        
         <div class="login-container">
+            <img src="images/logo.png" alt="Chill Logo" class="logo">
             <h2>Daftar</h2>
             <p>Selamat Datang!</p>
             <form>
-                <input type="text" placeholder="Username" required>
-                <input type="password" placeholder="Password" required>
-                <input type="password" placeholder="Konfirmasi Password" required>
+                <label class="login-help" for="name">Username</label>
+                <input type="text" placeholder="Masukkan username" />
+                <label class="login-help" for="password">Kata Sandi</label>
+                <input type="password" placeholder="Masukkan Kata Sandi" />
+                <label class="login-help" for="password">Konfirmasi Kata Sandi</label>
+                <input type="password" placeholder="Masukkan Kata Sandi" />
+                <div class="login-help">
+                <p class="belum-punya-akun">Sudah Punya Akun? <a href="login.html">Masuk </a></p>
+                </div>
                 <button type="submit">Daftar</button>
                 <p class="text-devider">Atau</p>
                 <button class="google-login"><img src="images/goggle.webp" width="25px" alt="Google Logo">Daftar dengan Google</button>
             </form>
-            <div class="login-help">
-                <a href="login.html">Sudah Punya Akun? Masuk</a>
-            </div>
+            
         </div>
-    </div>
 </body>
 </html>

@@ -28,15 +28,16 @@ body {
 .logo {
     width: 150px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .login-container {
-    max-width: 400px;
+    min-width: 450px;
     margin: auto;
-    background: rgba(0, 0, 0, 0.75);
-    padding: 20px;
-    border-radius: 8px;
-    text-align: left;
+    background: rgba(36, 34, 34, 0.9);
+    padding: 30px 20px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 h2 {
@@ -49,18 +50,20 @@ form input {
     box-sizing: border-box;
     padding: 15px;
     margin: 10px 0;
-    border: none;
-    border-radius: 5px;
+    border: 0.5px solid #fff;
+    border-radius: 25px;
     background: #333;
     color: #fff;
+    background: transparent;
+    outline: none;
 }
 
 form button {
     width: 100%;
     padding: 15px;
-    background-color: #e50914;
+    background-color: #303030;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -68,31 +71,37 @@ form button {
 }
 
 .google-login {
-    background-color: #264b88;
+    background-color: #303030;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     border: none;
     padding: 15px;
 }
 
 .login-help {
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .login-help a {
-    color: #757575;
+    color: #ffffff;
     text-decoration: none;
-    display: block;
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.belum-punya-akun {
+    color: #949494;
+    margin-top: 15px;
 }
 
 .text-devider {
     text-align: center;
+    color: #949494;
 }
 
 /* Header */
